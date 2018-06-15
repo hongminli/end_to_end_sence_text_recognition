@@ -5,8 +5,8 @@ This repo implements the end-to-end sence text recognition. The sence text recog
 2. Text recognition    
 (You can see the complete code for text recognition in this [repo](https://github.com/THUliumeng/crnn.pytorch).)  
 ## File structure  
-1. east：the necessary files for text localization, include the pretrained model for text localization.  
-2. crnn：the necessary files for text recognition, include the pretrained model for text recognition.  
+1. east：the necessary files for text localization, include the pretrained model for text localization.(you need to download the pretrained EAST model [here](https://pan.baidu.com/s/19tkiQ9h5uX3koUAJeQw7IA) and put the folder in the ./east/ directory)    
+2. crnn：the necessary files for text recognition, include the pretrained model for text recognition.（you need to download the pretrained model [here](https://pan.baidu.com/s/1RyzwO2qNRdqd12H3dy79wQ) and put it under the ./crnn/models/ directory.)      
 3. end_to_end.py： implement the end_to_end scene text recognition.  
 ## Installation  
 To run this repo, you need the below environment:  
